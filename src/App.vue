@@ -1,15 +1,16 @@
 <template>
   <div>
     <h1>Rick And Morty</h1>
+    <list-characters></list-characters>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ListCharacters from './components/ListCharacters.vue'
 export default {
   name: 'App',
   components: {
+    ListCharacters
   }
 }
 </script>
